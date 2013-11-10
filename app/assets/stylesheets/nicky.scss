@@ -236,8 +236,8 @@ img
 
 .project_header
 {
-  font-size: 4em;
-  color: #60C7D8;
+  font-size: 2em;
+  color: #2d2d2d;
   line-height: 100px;
   margin-right: auto;
   margin-left: auto;
@@ -248,20 +248,22 @@ img
 
 .projects-large img
 {
-  width: 60em;
+  width: 40em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   box-shadow: 2px 1px 1px grey;
 }
 
 .projects-large-glebe img
 {
-  width: 40em;
-  margin-left: auto;
+  width: 20em;
+  margin-left: 5px;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   box-shadow: 2px 1px 1px grey;
+  display: inline-block;
+  float: left;
 }
 
 .headshot img
@@ -319,13 +321,14 @@ img
   opacity: 1;
  }
 
-  .arrow-final img
+  .arrow-final
  {
   width: 2em;
   opacity: 0.3;
   float: left;
   display: inline-block;
-  margin-top: 2em;
+  margin-top: 5em;
+  margin-bottom: 3em;
   margin-right: 50px;
  }
 
@@ -344,7 +347,8 @@ img
   text-align: left;
   float: left;
   display: inline-block;
-
+  margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 .social img
@@ -355,12 +359,16 @@ img
   margin-right: 50px;
   float: right;
   vertical-align: middle;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-#project_text
+.project_text
 {
   margin-top: 20px;
   margin-bottom: 30px;
+  display: block;
+  float: left;
 }
 
 #biline
