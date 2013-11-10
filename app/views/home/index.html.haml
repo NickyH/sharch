@@ -1,0 +1,121 @@
+#topspacer.hide-for-small
+
+.row.toprow.header
+  .large-4.small-12.columns.large-offset-1
+    #logoheader= image_tag('seah-hughes.png')
+
+  .large-8.small-12.columns
+    .row
+      .small-4.columns.navgroup
+        .rounded.mysubheader2= link_to('about', '#about')
+      .small-4.columns.navgroup
+        .rounded.mysubheader2= link_to('projects', '#portfolio1')
+      .small-4.columns.navgroup
+        .rounded.mysubheader2= link_to('contact', '#contact')
+    .row
+      .large-6.columns
+      .large-6.columns
+        #biline= 'seah hughes architecture'
+        #email-small= 'contact@seahhughesarch.com'
+
+
+
+
+<!-- project 1 recipezy  new page -->
+
+
+#portfolio1
+
+  #recipezy
+  .row
+    .large-6.small-8.small-centered.columns.arrows
+      = link_to(image_tag('up_arrow.png'), '#topspacer')
+  .row
+    .large-8.small-8.small-centered.columns
+      .project_header= "Erskineville House"
+      .projects-large= link_to(image_tag('MountStreet-sc1.png'), 'http://cryptic-hamlet-1095.herokuapp.com/', :target => '_blank')
+      #project_text= "A design for a new build on a site in residential Erskineville..."
+  .row
+    .large-8.small-10.small-centered.columns
+      .arrows= link_to(image_tag('down_arrow.png'), '#team8')
+
+
+
+<!-- project 2 team8 new page -->
+
+
+#portfolio2
+  #team8
+    .row
+      .large-6.small-8.small-centered.columns.arrows
+        = link_to(image_tag('up_arrow.png'), '#recipezy')
+    .row
+      .large-8.small-8.small-centered.columns
+        .project_header= "Ceccattini House"
+        .projects-large= image_tag('MountStreet-sc1.png')
+        .projects-large= image_tag('MountStreet-sc2.png')
+        .projects-large= image_tag('MountStreet-sc3.png')
+        #project_text= "The client wanted a duplex built on an existing site. The brief was to imagine something different, not just the usual duplex house with a split down the middle. The initial concept was a pair of courtyard houses with winter gardens and rooftop terraces with gardens and city views."
+    .row
+      .large-8.small-10.small-centered.columns
+        .arrows= link_to(image_tag('down_arrow.png'), '#boggle')
+
+
+
+<!-- project 3 boggle new page -->
+
+
+#portfolio3
+  #boggle
+    .row
+      .large-6.small-8.small-centered.columns.arrows
+        = link_to(image_tag('up_arrow.png'), '#boggle')
+    .row
+      .large-8.small-8.small-centered.columns
+        .project_header= "Glebe Renovation"
+        .projects-large-glebe= link_to(image_tag('kitchen-before-after.jpg'))
+        .projects-large-glebe= link_to(image_tag('garden-before-after.jpg'))
+        #project_text= "A renovation of an old worker's cottage in the inner Sydney suburb of Glebe. The focus was to bring as much natural light into the narrow site, and to maximise the little available outdoor space on the north-facing frontage."
+    .row
+      .large-8.small-10.small-centered.columns
+        .arrows= link_to(image_tag('down_arrow.png'), '#lunchtrackr')
+
+<!-- project 4 lunchtrackr new page -->
+
+
+#portfolio4
+  #lunchtrackr
+    .row
+      .large-6.small-8.small-centered.columns.arrows
+        = link_to(image_tag('up_arrow.png'), '#boggle')
+    .row
+      .large-8.small-8.small-centered.columns
+        .project_header= "Lane Cove Alterations"
+        .projects-large= link_to(image_tag('gamma_plan.png'))
+        #project_text= "Alterations to a family home in Lane Cove, involving interior works as well as a new deck and landscaping."
+    .row
+      .large-8.small-10.small-centered.columns
+        .arrows= link_to(image_tag('down_arrow.png'), '#memory')
+
+
+#about
+  .row
+    .large-8.small-10.small-centered.columns
+      .bioheader= "About Seah Hughes..."
+      .bio= "Founded in 2012 by Hui Seah and Nicky Hughes, Seah Hughes is an architecture practice that specialises in residential and small-scale commercial design projects all over Sydney. We love a design challenge, whether it be a challenging site, a small budget or a renovation. We focus on sustainable and user-focussed design - looking good is great, but we want our buildings to be liveable and friendly to the environment."
+      .skills= "If you are considering a building project, please contact us for an obligation free discussion."
+      .headshot= image_tag('nickybw-cropped.jpg')
+      .headshot= image_tag('huibw.jpg')
+
+#contact
+  .row
+    .large-8.small-10.small-centered.columns
+      .arrow-final= link_to(image_tag('up_arrow.png'), '#topspacer')
+      .contact= "contact@seahhughesarch.com"
+      .social= link_to(image_tag('facebook-logo.png'), 'https://www.facebook.com/seahhughes', :target => '_blank')
+
+
+
+
+
+
