@@ -58,6 +58,15 @@ a:visited
   margin-top: 50px;
 }
 
+#seahhughes {
+  font-size: 40px;
+  letter-spacing: 17px;
+  display: inline-block;
+  color: darken(#b2e4ec, 10%);
+  padding-top: 20px;
+  margin-left: 2em;
+}
+
 img
 {
   border-radius: 15px;
@@ -73,12 +82,13 @@ img
 
 #logoheader
 {
-  height: 50px;
-  width: auto;
+  height: 80px;
+  width: 80px;
   float: right;
   display: block;
   position: relative;
   margin-right: 100px;
+  opacity: 0.5;
 }
 
 
@@ -99,7 +109,7 @@ img
 .mysubheader2
 {
   font-size: 1.4em;
-  float: left;
+  float: right;
   margin-left: 50px;
   display: inline-block;
   width: 50px;
@@ -387,4 +397,14 @@ img
   float: right;
   font-style: italic;
   color: grey;
+}
+
+.headline {
+  text-indent: 3em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: grey;
+  box-shadow: 4px 4px 1px #999;
+  color: white;
+  font-size: 1em;
 }
